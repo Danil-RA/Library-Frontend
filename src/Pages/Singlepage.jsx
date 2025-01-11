@@ -28,20 +28,20 @@ function SinglePage() {
   }, []);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/Like', { params: { title: book.title } })
+    axios.get('https://library-backend-1-1qrz.onrender.com/Like', { params: { title: book.title } })
       .then((response) => setLike(response.data))
       .catch((error) => console.error('Error fetching likes:', error));
   }, [book.title]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/comment', { params: { title: book.title } })
+    axios.get('https://library-backend-1-1qrz.onrender.com/comment', { params: { title: book.title } })
       .then((response) => setComment(response.data))
       .catch((error) => console.error('Error fetching comments:', error));
   }, [book.title]);
 
   const handleRentBook = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:3001/singlepage', {
+    axios.post('https://library-backend-1-1qrz.onrender.com/singlepage', {
       name: userDetails.name,
       title: book.title,
       email: userDetails.email,
@@ -55,7 +55,7 @@ function SinglePage() {
 
   const handleLike = (e) => {
     e.preventDefault();
-    axios.put('http://localhost:3001/like', { title: book.title })
+    axios.put('https://library-backend-1-1qrz.onrender.com/like', { title: book.title })
       .then(() => setLike((prev) => prev + 1))
       .catch((err) => console.error('Error liking the book:', err));
   };
@@ -63,7 +63,7 @@ function SinglePage() {
   const handleComment = (e) => {
     e.preventDefault();
     if (!inputComment.trim()) return;
-    axios.put('http://localhost:3001/comment', { title: book.title, inputComment })
+    axios.put('https://library-backend-1-1qrz.onrender.com/comment', { title: book.title, inputComment })
       .then(() => {
         setComment((prev) => `${prev},${inputComment}`);
         setInputComment("");
