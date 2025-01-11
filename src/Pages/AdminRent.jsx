@@ -9,7 +9,7 @@ function AdminRent() {
 
   useEffect(() => {
     // Fetch books from the backend when the component mounts
-    axios.get('http://localhost:3001/AdminRent')  // API endpoint
+    axios.get('https://library-backend-1-1qrz.onrender.com/AdminRent')  // API endpoint
       .then((response) => {
         setRentBooks(response.data);  // Set the books in state
       })
