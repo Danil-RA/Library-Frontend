@@ -21,7 +21,7 @@ const AddBookPage = () => {
     const [errorMessage, setErrorMessage] = useState("")
     const handleSubmit = (e) => {
       e.preventDefault();
-      axios.post('http://localhost:3001/add-books', {id,title,author,genre,publicationYear,isbn,url,rentalStatus:true})
+      axios.post('https://library-backend-1-1qrz.onrender.com/add-books', {id,title,author,genre,publicationYear,isbn,url,rentalStatus:true})
         .then(result => {
           console.log(result)
           navigate('/Admindashboard')
