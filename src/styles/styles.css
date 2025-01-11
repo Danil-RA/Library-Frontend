@@ -1,0 +1,49 @@
+.card-button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative; 
+    z-index: 1; 
+    margin: 1rem;
+    border: none; /* Ensure the button border doesn't disrupt the hover effect */
+    overflow: hidden; /* Keep child content within the button's boundaries */
+    cursor: pointer; /* Make it clear that the button is clickable */
+}
+.card-button:hover {
+    transform: scale(1.1); 
+    transform-origin: center center;
+    background-color: #DDE6ED; /* Optional: Add a subtle background color change */
+}
+
+
+.card-button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative; 
+    z-index: 1; 
+    margin: 1rem;
+    border: none; /* Ensure the button border doesn't disrupt the hover effect */
+    overflow: hidden; /* Keep child content within the button's boundaries */
+    cursor: pointer; /* Make it clear that the button is clickable */
+}
+.card-button:hover {
+    transform: scale(1.1); 
+    transform-origin: center center;
+    background-color: #DDE6ED; /* Optional: Add a subtle background color change */
+}
+
+
+.GetStarted button{
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #DDE6ED;
+    margin-top: 2rem;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #DDE6ED;
+    
+}
+.GetStarted button:hover{
+    background-color: #DDE6ED;
+    transition: background-color 0.1s ease;
+    color: black;
+    cursor: pointer;
+}

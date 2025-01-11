@@ -1,0 +1,650 @@
+[{
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e841"
+    },
+    "id": 1,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "publicationYear": 1925,
+    "genre": "Fiction",
+    "isbn": "9780743273565",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/330px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
+    "rentalStatus": false
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e842"
+    },
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "publicationYear": 1960,
+    "genre": "Fiction",
+    "isbn": "9780061120084",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/330px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+    "rentalStatus": false
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e843"
+    },
+    "id": 3,
+    "title": "1984",
+    "author": "George Orwell",
+    "publicationYear": 1949,
+    "genre": "Dystopian",
+    "isbn": "9780451524935",
+    "url": "https://upload.wikimedia.org/wikipedia/en/5/51/1984_first_edition_cover.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e844"
+    },
+    "id": 4,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publicationYear": 1813,
+    "genre": "Romance",
+    "isbn": "9780141439518",
+    "url": "https://images.squarespace-cdn.com/content/v1/58c180edff7c50dd0e51a2ad/1596041939231-YZHO66S83S7PCJ16AHJH/915J5ZzKE8L.jpg?format=300w",
+    "rentalStatus": false
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e845"
+    },
+    "id": 5,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "publicationYear": 1851,
+    "genre": "Adventure",
+    "isbn": "9781503280786",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOnyuhZvZhiIru2igjF5VFVLDoAL_l0WWnQ&s  ",
+    "rentalStatus": false
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e846"
+    },
+    "id": 6,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "publicationYear": 1869,
+    "genre": "Historical",
+    "isbn": "9780199232765",
+    "url": "https://m.media-amazon.com/images/I/81W6BFaJJWL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e847"
+    },
+    "id": 7,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "publicationYear": "8th century BC",
+    "genre": "Epic Poetry",
+    "isbn": "9780199536784",
+    "url": "https://m.media-amazon.com/images/I/81g0AATkO9L._AC_UF350,350_QL50_.jpg  ",
+    "rentalStatus": false
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e848"
+    },
+    "id": 8,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "publicationYear": 1951,
+    "genre": "Fiction",
+    "isbn": "9780316769488",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtWgq6tTVtT_CluoMU0-PntXerZBCh1aXmA&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e849"
+    },
+    "id": 9,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "publicationYear": 1932,
+    "genre": "Dystopian",
+    "isbn": "9780060850524",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPycEQhOlX3_tfSviTJBp7dukNGYaRpWi-w&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e84a"
+    },
+    "id": 10,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "publicationYear": 1937,
+    "genre": "Fantasy",
+    "isbn": "9780345339683",
+    "url": "https://m.media-amazon.com/images/I/712cDO7d73L._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e84b"
+    },
+    "id": 11,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "publicationYear": 1954,
+    "genre": "Fantasy",
+    "isbn": "9780618640157",
+    "url": "https://m.media-amazon.com/images/I/7125+5E40JL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e84c"
+    },
+    "id": 12,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "publicationYear": 1953,
+    "genre": "Dystopian",
+    "isbn": "9781451673319",
+    "url": "https://m.media-amazon.com/images/I/61l8LHt4MeL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e84d"
+    },
+    "id": 13,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "publicationYear": 1988,
+    "genre": "Adventure",
+    "isbn": "9780061122415",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4T0aNvgYdBX8kfK_qYc046QFsSXhHE2NXWw&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e84e"
+    },
+    "id": 14,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "publicationYear": 1890,
+    "genre": "Philosophical fiction",
+    "isbn": "9780141439570",
+    "url": "https://m.media-amazon.com/images/I/91uns-1GnQL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e84f"
+    },
+    "id": 15,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "publicationYear": 1862,
+    "genre": "Historical fiction",
+    "isbn": "9780451419439",
+    "url": "https://m.media-amazon.com/images/I/91p594CxSpL.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e850"
+    },
+    "id": 16,
+    "title": "The Great Expectations",
+    "author": "Charles Dickens",
+    "publicationYear": 1861,
+    "genre": "Fiction",
+    "isbn": "9780141439563",
+    "url": "https://sterling-us.imgix.net/covers/9781435172616.jpg?auto=format&h=648",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e851"
+    },
+    "id": 17,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "publicationYear": 1951,
+    "genre": "Fiction",
+    "isbn": "9780316769488",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtWgq6tTVtT_CluoMU0-PntXerZBCh1aXmA&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e852"
+    },
+    "id": 18,
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "publicationYear": 1985,
+    "genre": "Dystopian",
+    "isbn": "9780385490818",
+    "url": "https://m.media-amazon.com/images/I/61su39k8NUL.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e853"
+    },
+    "id": 19,
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "publicationYear": 2006,
+    "genre": "Post-apocalyptic fiction",
+    "isbn": "9780307387899",
+    "url": "https://ik.imagekit.io/panmac/india/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781035003792.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e854"
+    },
+    "id": 20,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "publicationYear": 1847,
+    "genre": "Romance",
+    "isbn": "9780141441146",
+    "url": "https://m.media-amazon.com/images/I/61RmfGsyCrL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e855"
+    },
+    "id": 21,
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "publicationYear": 1847,
+    "genre": "Gothic fiction",
+    "isbn": "9780141439556",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHiNwiOKNW4S0hUqquFnzbX-esmh6AONd55w&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e856"
+    },
+    "id": 22,
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "publicationYear": "1320",
+    "genre": "Epic poetry",
+    "isbn": "9780451207396",
+    "url": "https://m.media-amazon.com/images/I/51i-9SGWr-L.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e857"
+    },
+    "id": 23,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "publicationYear": 1880,
+    "genre": "Philosophical fiction",
+    "isbn": "9780374528379",
+    "url": "https://m.media-amazon.com/images/I/71OZJsgZzQL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e858"
+    },
+    "id": 24,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "publicationYear": 1877,
+    "genre": "Realist fiction",
+    "isbn": "9780143035008",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdAKuIUyJKKkOqg_1SYsCw7a77R9fQs0mL0A&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e859"
+    },
+    "id": 25,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "publicationYear": 1866,
+    "genre": "Psychological fiction",
+    "isbn": "9780486415871",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYZNpwRox7-HxToB_vsxgkWA3I1Y4NFpFjQ&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e85a"
+    },
+    "id": 26,
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "publicationYear": 1914,
+    "genre": "Existential fiction",
+    "isbn": "9780805209990",
+    "url": "https://m.media-amazon.com/images/I/71JUWTniQxL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e85b"
+    },
+    "id": 27,
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "publicationYear": 1915,
+    "genre": "Short stories",
+    "isbn": "9780553213690",
+    "url": "https://m.media-amazon.com/images/I/61zETrlpLKL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e85c"
+    },
+    "id": 28,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "publicationYear": 1605,
+    "genre": "Novel",
+    "isbn": "9780060934347",
+    "url": "https://m.media-amazon.com/images/I/71mbJoazlCL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e85d"
+    },
+    "id": 29,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "publicationYear": 1939,
+    "genre": "Historical fiction",
+    "isbn": "9780143039433",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg/640px-The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e85e"
+    },
+    "id": 30,
+    "title": "East of Eden",
+    "author": "John Steinbeck",
+    "publicationYear": 1952,
+    "genre": "Historical fiction",
+    "isbn": "9780142000654",
+    "url": "https://m.media-amazon.com/images/I/81dK6hlbsnL.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e85f"
+    },
+    "id": 31,
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "publicationYear": 1937,
+    "genre": "Fiction",
+    "isbn": "9780140177398",
+    "url": "https://m.media-amazon.com/images/I/71xXwHUrsxL.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e860"
+    },
+    "id": 32,
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "publicationYear": 1926,
+    "genre": "Fiction",
+    "isbn": "9780743297331",
+    "url": "https://m.media-amazon.com/images/I/71O7XjXaMhL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e861"
+    },
+    "id": 33,
+    "title": "A Farewell to Arms",
+    "author": "Ernest Hemingway",
+    "publicationYear": 1929,
+    "genre": "War fiction",
+    "isbn": "9780684801469",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Poster_-_A_Farewell_to_Arms_%281932%29_01.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e862"
+    },
+    "id": 34,
+    "title": "For Whom the Bell Tolls",
+    "author": "Ernest Hemingway",
+    "publicationYear": 1940,
+    "genre": "War fiction",
+    "isbn": "9780684803371",
+    "url": "https://m.media-amazon.com/images/I/71tC6Us5sLL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e863"
+    },
+    "id": 35,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "publicationYear": 1952,
+    "genre": "Fiction",
+    "isbn": "9780684801223",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINEtLxecAP00jg-nyKYs3qX_BgpiN1AP0nw&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e864"
+    },
+    "id": 36,
+    "title": "The Outsiders",
+    "author": "S.E. Hinton",
+    "publicationYear": 1967,
+    "genre": "Young adult",
+    "isbn": "9780142407332",
+    "url": "https://m.media-amazon.com/images/I/71Bg39CmhoL.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e865"
+    },
+    "id": 37,
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "publicationYear": 1961,
+    "genre": "Satirical novel",
+    "isbn": "9781451626650",
+    "url": "https://m.media-amazon.com/images/I/81JD6Rh0BYL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e866"
+    },
+    "id": 38,
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "publicationYear": 1969,
+    "genre": "Science fiction",
+    "isbn": "9780385333849",
+    "url": "https://m.media-amazon.com/images/I/51jLxTxTnyL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e867"
+    },
+    "id": 39,
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "publicationYear": 2012,
+    "genre": "Young adult",
+    "isbn": "9780142424179",
+    "url": "https://m.media-amazon.com/images/I/817tHNcyAgL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e868"
+    },
+    "id": 40,
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "publicationYear": 2008,
+    "genre": "Dystopian",
+    "isbn": "9780439023528",
+    "url": "https://m.media-amazon.com/images/I/81SuY1L1FeL._UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e869"
+    },
+    "id": 41,
+    "title": "The Maze Runner",
+    "author": "James Dashner",
+    "publicationYear": 2009,
+    "genre": "Dystopian",
+    "isbn": "9780385737944",
+    "url": "https://m.media-amazon.com/images/I/61e65oyKToL._AC_UF350,350_QL50_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e86a"
+    },
+    "id": 42,
+    "title": "Divergent",
+    "author": "Veronica Roth",
+    "publicationYear": 2011,
+    "genre": "Dystopian",
+    "isbn": "9780062024022",
+    "url": "https://m.media-amazon.com/images/I/71Fk8wjQHDL._UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e86b"
+    },
+    "id": 43,
+    "title": "The Perks of Being a Wallflower",
+    "author": "Stephen Chbosky",
+    "publicationYear": 1999,
+    "genre": "Young adult",
+    "isbn": "9780671027346",
+    "url": "https://m.media-amazon.com/images/I/71fLFQge1hL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e86c"
+    },
+    "id": 44,
+    "title": "Looking for Alaska",
+    "author": "John Green",
+    "publicationYear": 2005,
+    "genre": "Young adult",
+    "isbn": "9780142402511",
+    "url": "https://m.media-amazon.com/images/I/7127ZROAw5L._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e86d"
+    },
+    "id": 45,
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "publicationYear": 2005,
+    "genre": "Historical fiction",
+    "isbn": "9780375842207",
+    "url": "https://m.media-amazon.com/images/I/914cHl9v7oL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e86e"
+    },
+    "id": 46,
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "publicationYear": 1993,
+    "genre": "Young adult",
+    "isbn": "9780385732551",
+    "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1342493368i/3636.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e86f"
+    },
+    "id": 47,
+    "title": "The Shining",
+    "author": "Stephen King",
+    "publicationYear": 1977,
+    "genre": "Horror",
+    "isbn": "9780307743657",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG7dmU8popYbvB7Gds7_UwSP0CqsVAIIq00g&s",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e870"
+    },
+    "id": 48,
+    "title": "It",
+    "author": "Stephen King",
+    "publicationYear": 1986,
+    "genre": "Horror",
+    "isbn": "9781501142970",
+    "url": "https://m.media-amazon.com/images/I/71ZIovNjw+L._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e871"
+    },
+    "id": 49,
+    "title": "The Stand",
+    "author": "Stephen King",
+    "publicationYear": 1978,
+    "genre": "Post-apocalyptic fiction",
+    "isbn": "9780451169534",
+    "url": "https://m.media-amazon.com/images/I/91YWt2jiowL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  },
+  {
+    "_id": {
+      "$oid": "6774cef03ffa1bbc2320e872"
+    },
+    "id": 50,
+    "title": "The Shining",
+    "author": "Stephen King",
+    "publicationYear": 1977,
+    "genre": "Horror",
+    "isbn": "9780307743657",
+    "url": "https://m.media-amazon.com/images/I/81CuEX3W9UL._AC_UF1000,1000_QL80_.jpg",
+    "rentalStatus": true
+  }]
