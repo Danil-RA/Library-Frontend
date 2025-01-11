@@ -10,7 +10,7 @@ function Users() {
 
   useEffect(() => {
     // Fetch users from the backend when the component mounts
-    axios.get('http://localhost:3001/users') // API endpoint
+    axios.get('https://library-backend-1-1qrz.onrender.com/users') // API endpoint
       .then((response) => {
         setUsers(response.data); // Set the users in state
       })
