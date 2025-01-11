@@ -12,7 +12,7 @@ const AdminDashboard = () => {
 
   useEffect(() => {
     // Fetch books from the backend when the component mounts
-    axios.get('http://localhost:3001/Admindashboard')  // API endpoint
+    axios.get('https://library-backend-1-1qrz.onrender.com/Admindashboard')  // API endpoint
       .then((response) => {
         setRequests(response.data);  // Set the books in state
       })
@@ -46,10 +46,10 @@ const AdminDashboard = () => {
     
   // Make both API calls concurrently using Promise.all
   Promise.all([
-    axios.put('http://localhost:3001/books', { title: request.title , name:request.name}),  // Update rental status
+    axios.put('hhttps://library-backend-1-1qrz.onrender.com/books', { title: request.title , name:request.name}),  // Update rental status
     // axios.delete('http://localhost:3001/Admindashboard', { data: { title: request.title } }) , // Delete request
-    axios.put('http://localhost:3001/bookrequest',  {_id:request._id  } ) , // Update status
-    axios.put('http://localhost:3001/time',{ _id:request._id ,ExpiryTime:LastTime })  // Update status
+    axios.put('https://library-backend-1-1qrz.onrender.com/bookrequest',  {_id:request._id  } ) , // Update status
+    axios.put('https://library-backend-1-1qrz.onrender.com/time',{ _id:request._id ,ExpiryTime:LastTime })  // Update status
   ])
     .then(([putResult,putStatus]) => {
       console.log('PUT result:', putResult);
@@ -73,7 +73,7 @@ const AdminDashboard = () => {
 
 
 const handleDecline = (request) => {
-  axios.put('http://localhost:3001/decline',  { title: request.title , _id:request._id } ) 
+  axios.put('https://library-backend-1-1qrz.onrender.com/decline',  { title: request.title , _id:request._id } ) 
       .then(result => {
         console.log(result)
       })
